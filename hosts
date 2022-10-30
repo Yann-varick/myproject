@@ -1,0 +1,9 @@
+localhost
+20.205.59.53
+[all:vars]
+ansibles_python_interpreter=/usr/bin/python3
+ansibles_connection=ssh
+ansibles_user=ansible
+ansibles_password=ansible123
+ansibles_ssh_common_args='-o StrictHostKeyChecking=no'
+
